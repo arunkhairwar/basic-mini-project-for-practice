@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.calendar-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.days-of-week,
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+} 
+.dates {
+    margin-top: 10px;
+}
+
+.days-of-week li,
+.dates li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.days-of-week li {
+    font-weight: bold;
+}
+
+.dates li {
+    background-color: #fafafa;
+}
+
+.note {
+    margin-top: 20px;
+    font-size: 14px;
+    color: red;
+    text-align: left;
+}
+
+.school-name {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e74c3c;
+    text-align: left;
+}
