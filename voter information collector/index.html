@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registraction form</title>
+  </head>
+  <body>
+    <h1>Mera Adhar Meri Pahchan</h1>
+    <p>please fill this details</p>
+    <form action="">
+      <label for="name">Name:</label>
+      <input type="text" name="first" id="name" placeholder="first" required />
+      <input type="text" name="middle" id="name" placeholder="middle"  />
+      <input type="text" name="last" id="name" placeholder="last" required/>
+      <br /><br />
+      <label for="gender">Gender:</label>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="other">Other</label>
+      <input type="radio" name="gender" id="other" />
+      <br /><br />
+      <label for="first-vote">have you given vote before ?</label>
+      <label for="yes">Yes</label>
+      <input type="radio" name="first-vote" id="yes" />
+      <label for="no">No</label>
+      <input type="radio" name="first-vote" id="no" />
+      <br /><br />
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="dob" id="dob" />
+      <br /><br />
+      <label for="epic-no">EPIC no.</label>
+      <input type="text" name="epic-no" id="epic-no" />
+      <br />
+      <br />
+      <label for="dist">Select your district: </label>
+      <select name="dist" id="sl-dis">
+        <option value="bhandara">bhandara</option>
+        <option value="chandrapur">chandrapur</option>
+        <option value="gondia">gondia</option>
+        <option value="nagpur">nagpur</option>
+        <option value="pune">pune</option>
+        <option value="mumbai">mumbai</option>
+      </select>
+      <br /><br />
+      <label for="village-city">Village/city :</label>
+      <input type="text" name="village-city" id="village-city" />
+      <br /><br />
+      <label for="address">Address:</label>
+      <br />
+      <textarea
+        name="address"
+        id="address"
+        placeholder="enter specific location"
+      >
+      </textarea>
+      <hr />
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
